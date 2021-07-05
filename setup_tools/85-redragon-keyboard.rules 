@@ -1,0 +1,1 @@
+SUBSYSTEM=="input", ATTRS{idVendor}=="0c45", ATTRS{idProduct}=="5004", MODE="0664", ENV{SYSTEMD_WANTS}="keebie.service"  TAG+="systemd"
